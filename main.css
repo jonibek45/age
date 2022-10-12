@@ -1,0 +1,38 @@
+body {
+    background: darkslategrey;
+}
+.box {
+    font-family: sans-serif;
+    background: #eee;
+    width: 650px;
+    height: 250px;
+    margin: 120px 0 0 300px;
+    padding: 50px;
+    border-radius: 10px;
+}
+.box__inner {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 15px;
+}
+input {
+    padding: 10px;
+    border-radius: 4px;
+    border: 2px solid teal;
+}
+p {
+    color: royalblue;
+    font-family: sans-serif;
+}
+.btn {
+    padding: 10px 20px;
+    font-size: 15px;
+    background: turquoise;
+    border: none;
+    border-radius: 5px;
+    margin: 25px 0 0 290px;
+}
+#age {
+    text-align: center;
+}
